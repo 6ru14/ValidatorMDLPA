@@ -1,0 +1,122 @@
+{
+    "Window" : {
+        "title" : "Autentificare",
+        "geometry" : "600x450",
+        "version" : "2.0.2"
+    },
+
+    "FrameClass" : {
+        "fg_color" : "#FFFFFF",
+        "corner_radius" : 0,
+        "anchor" : "center",
+        "relx" : 0.5,
+        "rely" : 0.5,
+        "relheight" : 1,
+        "relwidth" : 1
+    },
+
+    "Frames" : {
+        "main" : {
+            "corner_radius" : 0,
+            "fg_color" : "#FFFFFF"
+        },
+        "image" : {
+            "corner_radius" : 0,
+            "fg_color" : "#FFFFFF"
+        },
+        "auth" : {
+            "corner_radius" : 0,
+            "fg_color" : "#FFFFFF"
+        },
+        "inner_auth" : {
+            "corner_radius" : 0,
+            "fg_color" : "transparent"
+        },
+        "label" : {
+            "corner_radius" : 0,
+            "fg_color" : "transparent"
+        },
+        "username" : {
+            "corner_radius" : 0,
+            "fg_color" : "transparent"
+        },
+        "password" : {
+            "corner_radius" : 0,
+            "fg_color" : "transparent"
+        },
+        "button" : {
+            "corner_radius" : 0,
+            "fg_color" : "transparent"
+        },
+        "invalid" : {
+            "corner_radius" : 0,
+            "fg_color" : "transparent"
+        } 
+    },
+
+    "Labels" : {
+        "auth" : {
+            "text" : "Autentificare",
+            "font_family" : "Arial",
+            "font_size" : 18,
+            "text_color" : "#000000"
+        },
+        "username" : {
+            "text" : "Utilizator",
+            "font_family" : "Arial",
+            "font_size" : 12,
+            "text_color" : "#000000"
+        },
+        "password" : {
+            "text" : "Parola",
+            "font_family" : "Arial",
+            "font_size" : 12,
+            "text_color" : "#000000"
+        },
+        "invalid" : {
+            "text" : "Utilizator/Parola gresita",
+            "font_family" : "Arial",
+            "font_size" : 12,
+            "text_color_neutral" : "#FFFFFF",
+            "text_color_invalid" : "#C6011F"
+        }
+    },
+
+    "Buttons" : {
+        "login" : {
+            "text" : "Conectare",
+            "text_color" : "#FFFFFF",
+            "font_family" : "Arial",
+            "font_size" : 12,
+            "width" : 70,
+            "height" : 28,
+            "corner_radius" : 5,
+            "fg_color" : "#324AB2",
+            "hover_color" : "#1a1f71"
+        }
+    },
+
+    "Entryboxes" : {
+        "username" : {
+            "text_color" : "#000000",
+            "font_family" : "Arial",
+            "font_size" : 12,
+            "width" : 140,
+            "height" : 28,
+            "corner_radius" : 5,
+            "border_color" : "#d3d3d3",
+            "fg_color" : "#FFFFFF"
+        },
+
+        "password" : {
+            "text_color" : "#000000",
+            "font_family" : "Arial",
+            "font_size" : 12,
+            "width" : 140,
+            "height" : 28,
+            "corner_radius" : 5,
+            "border_color" : "#d3d3d3",
+            "fg_color" : "#FFFFFF"
+        }
+    }
+}

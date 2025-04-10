@@ -1,0 +1,224 @@
+{
+    "Window" : {
+        "title" : "Validator",
+        "geometry" : "600x450",
+        "version" : "2.0.2"
+    },
+
+    "FrameClass" : {
+        "fg_color" : "#FFFFFF",
+        "corner_radius" : 0,
+        "anchor" : "center",
+        "relx" : 0.5,
+        "rely" : 0.5,
+        "relheight" : 1,
+        "relwidth" : 1
+    },
+    
+    "Frames" : {
+        "main" : {
+            "width" : 500,
+            "corner_radius" : 0,
+            "fg_color" : "#FFFFFF",
+            "border_width" : 1.5,
+            "border_color" : "#B8B8B8" 
+        },
+        "image" : {
+            "corner_radius" : 0,
+            "fg_color" : "#FFFFFF"
+        },
+        "box" : {
+            "corner_radius" : 0,
+            "fg_color" : "transparent",
+            "border_width" : 1.5,
+            "border_color" : "#B8B8B8" 
+        },
+        "logout" : {
+            "corner_radius" : 0,
+            "fg_color" : "#FFFFFF"
+        },
+        "title" : {
+            "corner_radius" : 0,
+            "fg_color" : "#1a1f71",
+            "border_width" : 1.5,
+            "border_color" : "#B8B8B8" 
+        },
+        "choose" : {
+            "corner_radius" : 0,
+            "fg_color" : "transparent",
+            "border_width" : 0.75,
+            "border_color" : "#B8B8B8" 
+        },
+        "type" : {
+            "corner_radius" : 0,
+            "fg_color" : "transparent",
+            "border_width" : 0.75,
+            "border_color" : "#B8B8B8" 
+        },
+        "validate" : {
+            "corner_radius" : 0,
+            "fg_color" : "transparent",
+            "border_width" : 0.75,
+            "border_color" : "#B8B8B8" 
+        },
+        "in_progress" : {
+            "corner_radius" : 0,
+            "fg_color" : "transparent"
+        },
+        "inner_validate" : {
+            "corner_radius" : 0,
+            "fg_color" : "transparent"
+        },
+        "progress" : {
+            "corner_radius" : 0,
+            "fg_color" : "transparent"
+        }
+    },
+
+    "Labels" : {
+        "title" : {
+            "text" : "Validare arhiva zip",
+            "font_family" : "Arial",
+            "font_size" : 16,
+            "text_color" : "#FFFFFF"
+        },
+        "choose" : {
+            "text" : "Alegeti arhiva zip:",
+            "font_family" : "Arial",
+            "font_size" : 14,
+            "text_color" : "#000000"
+        },
+        "type" : {
+            "text" : "Alegeti tipul de document:",
+            "font_family" : "Arial",
+            "font_size" : 14,
+            "text_color" : "#000000"
+        },
+        "validate" : {
+            "text" : "Validati arhiva zip:",
+            "font_family" : "Arial",
+            "font_size" : 14,
+            "text_color" : "#000000"
+        },
+        "version" : {
+            "text" : "Ultima revizie a regulilor de validare: 07.04.2025",
+            "font_family" : "Arial",
+            "font_size" : 14
+        },
+        "in_progress" : {
+            "active_text" : "Documentatia este in proces de validare",
+            "active_text_color" : "#FFD700",
+            "pass_text" : "Documentatia a fost validata cu succes. Descarcati raportul de validare (CSV).",
+            "pass_text_color" : "#018749",
+            "fail_text" : "Documentatia nu a fost validata cu succes. Descarcati raportul de validare (CSV).",
+            "fail_text_color" : "#C6011F"
+        }
+    },
+
+    "Buttons" : {
+        "choose" : {
+            "text" : "...",
+            "text_color" : "#FFFFFF",
+            "width" : 28,
+            "height" : 28,
+            "corner_radius" : 5,
+            "fg_color" : "#324AB2",
+            "hover_color" : "#1a1f71"
+        },
+        "pug" : {
+            "text" : "PUG",
+            "text_color" : "#FFFFFF",
+            "width" : 56,
+            "height" : 28,
+            "corner_radius" : 5,
+            "fg_color" : "#324AB2",
+            "hover_color" : "#1a1f71"
+            
+        },
+        "pud" : {
+            "text" : "PUD",
+            "text_color" : "#FFFFFF",
+            "width" : 56,
+            "height" : 28,
+            "corner_radius" : 5,
+            "fg_color" : "#324AB2",
+            "hover_color" : "#1a1f71"
+        },
+        "puz" : {
+            "text" : "PUZ",
+            "text_color" : "#FFFFFF",
+            "width" : 56,
+            "height" : 28,
+            "corner_radius" : 5,
+            "fg_color" : "#324AB2",
+            "hover_color" : "#1a1f71"
+        },
+        "patj" : {
+            "text" : "PATJ",
+            "text_color" : "#FFFFFF",
+            "width" : 56,
+            "height" : 28,
+            "corner_radius" : 5,
+            "fg_color" : "#324AB2",
+            "hover_color" : "#1a1f71"
+        },
+        "validate" : {
+            "text" : "Valideaza",
+            "text_color" : "#FFFFFF",
+            "corner_radius" : 5,
+            "fg_color" : "#324AB2",
+            "hover_color" : "#1a1f71",
+            "width" : 75
+        },
+        "raport" : {
+            "text" : "Descarcare raport",
+            "text_color" : "#FFFFFF",
+            "corner_radius" : 5,
+            "fg_color" : "#FFD700",
+            "hover_color" : "#FFC700",
+            "width" : 110,
+            "height" : 28
+        },
+        "log_out" : {
+            "text" : "Deconectare",
+            "text_color" : "#FFFFFF",
+            "width" : 100,
+            "height" : 28,
+            "corner_radius" : 5,
+            "fg_color" : "#324AB2",
+            "hover_color" : "#1a1f71"
+        }
+    },
+
+    "Entryboxes" : {
+        "choose" : {
+            "text_color" : "#000000",
+            "font_family" : "Arial",
+            "font_size" : 12,
+            "width" : 400,
+            "height" : 28,
+            "corner_radius" : 5,
+            "border_color" : "#B8B8B8",
+            "fg_color" : "#FFFFFF",
+            "bg_color" : "#FFFFFF"
+        }
+    },
+
+    "Progressbar" : {
+        "mode" : "indeterminate",
+        "width" : 450,
+        "height" : 14,
+        "corner_radius" : 5,
+        "border_width" : 1.5,
+        "border_color" : "#B8B8B8",
+        "fg_color" : "#FFFFFF",
+        "bg_color" : "#FFFFFF",
+        "inactive" : "#FFFFFF",
+        "fg_active_color" : "#FFFFFF",
+        "active_color" : "#FFD700",
+        "fg_pass_color" : "#018749",
+        "pass_color" : "#018749",
+        "fg_fail_color" : "#C6011F",
+        "fail_color" : "#C6011F"
+    }
+}
