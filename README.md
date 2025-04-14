@@ -33,3 +33,6 @@ This is the repository that will contain the code for the MDLPA Website/Desktop 
             - This file will move all the files into a folder named 'Validator_(version)'.
         - 4_ToZip.py
             - This file will zip the folder into an archive, ready to be exported.
+
+- Rule Changes:
+    - New rule description until rule 131 (more will come in the future)
