@@ -31,7 +31,6 @@ class Application():
         # Sorts and gets the latest version
         latest_version = sorted(version_folders, key=lambda v: tuple(map(int, v.split('.'))))[-1]
         # Returns the latest version
-        print(latest_version)
         return latest_version
     
 if __name__ == '__main__':
